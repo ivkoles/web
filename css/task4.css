@@ -108,6 +108,18 @@ button {
     font-weight: 600;
 }
 
+.hero-choose:nth-child(1) option {
+    background-color: #7B7B7B;
+}
+
+.hero-choose:nth-child(2) option {
+    background-color: #504F4F;
+}
+
+.hero-choose:nth-child(3) option {
+    background-color: #303030;
+}
+
 .hero button {
     height: 100px;
     padding: 20px;
@@ -381,4 +393,5 @@ footer{
     .event-card-date-day {
         font-size: 20px;
     }
+
 }
