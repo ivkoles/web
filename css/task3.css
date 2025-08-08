@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+
+body {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.cards {
+    height: 100vh;
+    display: flex;
+    gap: 2px;
+    overflow: hidden;
+}
+
+.bear1 {
+    background: linear-gradient(#1717172f,#171717a6), url(../media/brown.webp);
+}
+
+.bear2 {
+    background: linear-gradient(#1717172f,#171717a6), url(../media/white.jpg);
+}
+
+.bear3 {
+    background: linear-gradient(#1717172f,#171717a6), url(../media/panda.jpg);
+}
+
+.bear4 {
+    background: linear-gradient(#1717172f,#171717a6), url(../media/baribal.jpg);
+}
+
+.card {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 25px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+    flex: auto;
+}
+
+.card:hover{
+    transform: scale(105%);
+}
+
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
